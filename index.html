@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App With Local Storage</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <input type="text" placeholder="Enter the task here..." />
+        <button class="add">Add</button>
+      </div>
+      <div class="list">
+        <div class="task completed">
+          <div class="check"></div>
+          <div class="content">
+            <span class="text">Go to gym</span>
+            <div class="btns">
+              <button class="btn edit"><i class="fas fa-pen"></i></button>
+              <button class="btn delete"><i class="fas fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
